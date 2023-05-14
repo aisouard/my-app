@@ -12,7 +12,8 @@
     "test:coverage": "vitest --coverage",
     "test:ui": "vitest --ui",
     "test:e2e-start": "cypress open --e2e",
-    "test:e2e": "start-server-and-test dev http-get://localhost:3000 test:e2e-start"
+    "test:e2e": "start-server-and-test dev http-get://localhost:3000 test:e2e-start",
+    "test:component": "cypress open --component"
   },
   "dependencies": {
     "react": "^18.2.0",
