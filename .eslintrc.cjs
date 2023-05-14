@@ -8,7 +8,7 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:import/recommended',
     'plugin:jsx-a11y/recommended',
-    'eslint-config-prettier',
+    'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
@@ -25,6 +25,7 @@ module.exports = {
     },
   },
   rules: {
+    'prettier/prettier': 'warn',
     'react-refresh/only-export-components': 'warn',
   },
 }
